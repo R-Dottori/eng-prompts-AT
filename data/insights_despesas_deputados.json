@@ -1,0 +1,51 @@
+{
+    "insights": [
+        {
+            "titulo": "Despesas da C\u00e2mara dos Deputados em 2024",
+            "descricao": "An\u00e1lise das despesas da C\u00e2mara dos Deputados no ano de 2024, baseada em dados de despesas por deputado, tipo de despesa, e informa\u00e7\u00f5es temporais (mensais e anuais).  Observa-se um total anual de R$ 13.429.908,63, com varia\u00e7\u00f5es mensais significativas. H\u00e1 uma forte concentra\u00e7\u00e3o de gastos em 'Manuten\u00e7\u00e3o de Escrit\u00f3rio' e 'Divulga\u00e7\u00e3o da Atividade Parlamentar'.",
+            "dados_relevantes": {
+                "despesa_total_anual": 13429908.63,
+                "tipos_despesa_predominantes": [
+                    "MANUTEN\u00c7\u00c3O DE ESCRIT\u00d3RIO DE APOIO \u00c0 ATIVIDADE ...",
+                    "DIVULGA\u00c7\u00c3O DA ATIVIDADE PARLAMENTAR."
+                ],
+                "desvio_padrao_mensal": "Necess\u00e1rio c\u00e1lculo para melhor precis\u00e3o."
+            }
+        },
+        {
+            "titulo": "Glosas e Despesas: Uma An\u00e1lise da Efici\u00eancia",
+            "descricao": "Apesar do alto volume de despesas, o percentual m\u00e9dio de glosas (0.79%) sobre o total de despesas por deputado sugere, a princ\u00edpio, um baixo \u00edndice de irregularidades.  No entanto, a an\u00e1lise deve considerar a distribui\u00e7\u00e3o das glosas entre os deputados. Um deputado (ID 204482) apresenta o maior valor total em glosas, indicando a necessidade de uma investiga\u00e7\u00e3o mais detalhada sobre suas despesas.",
+            "dados_relevantes": {
+                "percentual_medio_glosas": 0.79,
+                "deputado_maior_glosa": 204482,
+                "tipos_despesas_maiores_glosas": [
+                    "MANUTEN\u00c7\u00c3O DE ESCRIT\u00d3RIO DE APOIO \u00c0 ATIVIDADE P...",
+                    "COMBUST\u00cdVEIS E LUBRIFICANTES."
+                ]
+            }
+        },
+        {
+            "titulo": "Correla\u00e7\u00e3o entre Despesas e Glosas: Um Ind\u00edcio Fraco",
+            "descricao": "A baixa correla\u00e7\u00e3o (0.05) entre o valor da despesa e o valor da glosa indica que o valor da despesa n\u00e3o \u00e9 um forte preditor da probabilidade de uma glosa. Isso sugere que as glosas podem estar relacionadas a outros fatores, como a documenta\u00e7\u00e3o, a justificativa das despesas, ou a conformidade com as normas internas da C\u00e2mara.",
+            "dados_relevantes": {
+                "correlacao_despesa_glosa": 0.0545
+            }
+        },
+        {
+            "titulo": "Distribui\u00e7\u00e3o das Despesas por Deputado: Necessidade de An\u00e1lise Individual",
+            "descricao": "Os dados demonstram uma grande varia\u00e7\u00e3o no valor total das despesas entre os deputados. Para uma an\u00e1lise mais completa, \u00e9 importante aprofundar o estudo da distribui\u00e7\u00e3o das despesas por deputado, identificando poss\u00edveis outliers e investigando as causas das diferen\u00e7as significativas.",
+            "dados_relevantes": {
+                "numero_deputados": 512,
+                "necessidade_de_analise_individual": true
+            }
+        }
+    ],
+    "conclusoes": [
+        "A an\u00e1lise preliminar aponta para uma necessidade de investiga\u00e7\u00e3o mais aprofundada sobre as glosas, focando no deputado com maior valor total em glosas e nos tipos de despesas com maior incid\u00eancia.  Al\u00e9m disso, \u00e9 crucial aprofundar a an\u00e1lise da distribui\u00e7\u00e3o das despesas por deputado, para entender as varia\u00e7\u00f5es e buscar poss\u00edveis irregularidades.",
+        "A baixa correla\u00e7\u00e3o entre despesas e glosas indica a necessidade de investigar outros fatores que contribuem para a ocorr\u00eancia de glosas."
+    ],
+    "limitacoes": [
+        "A aus\u00eancia de informa\u00e7\u00f5es sobre o contexto de cada despesa e glosa limita a interpreta\u00e7\u00e3o dos dados.  Seria necess\u00e1rio acesso a mais detalhes, como a documenta\u00e7\u00e3o que acompanha as despesas e os motivos das glosas.",
+        "A an\u00e1lise se baseia apenas nos dados fornecidos. Dados adicionais, como informa\u00e7\u00f5es sobre os mandatos dos deputados e a natureza das atividades parlamentares, enriqueceriam a an\u00e1lise."
+    ]
+}

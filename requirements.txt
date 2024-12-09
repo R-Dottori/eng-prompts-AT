@@ -1,0 +1,11 @@
+faiss-cpu
+google-generativeai
+jupyter
+matplotlib
+pandas
+plotly
+seaborn
+sentence-transformers
+streamlit
+torch
+transformers
